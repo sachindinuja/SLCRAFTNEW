@@ -1,0 +1,252 @@
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\drawable\wave_background.xml:2: Warning: Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more [VectorRaster]
+    android:width="1440dp"
+                   ~~~~~~
+
+   Explanation for issues of type "VectorRaster":
+   Vector icons require API 21 or API 24 depending on used features, but when
+   minSdkVersion is less than 21 or 24 and Android Gradle plugin 1.4 or higher
+   is used, a vector drawable placed in the drawable folder is automatically
+   moved to drawable-anydpi-v21 or drawable-anydpi-v24 and bitmap images are
+   generated for different screen resolutions for backwards compatibility.
+
+   However, there are some limitations to this raster image generation, and
+   this lint check flags elements and attributes that are not fully supported.
+   You should manually check whether the generated output is acceptable for
+   those older devices.
+
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\build.gradle:49: Warning: A newer version of com.google.android.material:material than 1.5.0 is available: 1.9.0 [GradleDependency]
+    implementation 'com.google.android.material:material:1.5.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\build.gradle:55: Warning: A newer version of com.google.firebase:firebase-auth than 21.1.0 is available: 22.0.0 [GradleDependency]
+    implementation 'com.google.firebase:firebase-auth:21.1.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\build.gradle:57: Warning: A newer version of com.google.firebase:firebase-database-ktx than 20.1.0 is available: 20.2.1 [GradleDependency]
+    implementation 'com.google.firebase:firebase-database-ktx:20.1.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\build.gradle:58: Warning: A newer version of com.google.firebase:firebase-auth-ktx than 21.1.0 is available: 22.0.0 [GradleDependency]
+    implementation 'com.google.firebase:firebase-auth-ktx:21.1.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\build.gradle:56: Warning: Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (androidx.core:core-ktx:+) [GradleDynamicVersion]
+    implementation 'androidx.core:core-ktx:+'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDynamicVersion":
+   Using + in dependencies lets you automatically pick up the latest available
+   version rather than a specific, named version. However, this is not
+   recommended; your builds are not repeatable; you may have tested with a
+   slightly different version than what the build server used. (Using a
+   dynamic version as the major version number is more problematic than using
+   it in the minor version position.)
+
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml:2: Warning: The resource R.mipmap.ic_launcher_round appears to be unused [UnusedResources]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml:2: Warning: The application adaptive icon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "MonochromeLauncherIcon":
+   If android:roundIcon and android:icon are both in your manifest, you must
+   either remove the reference to android:roundIcon if it is not needed; or,
+   supply the monochrome icon in the drawable defined by the android:roundIcon
+   and android:icon attribute.
+
+   For example, if android:roundIcon and android:icon are both in the
+   manifest, a launcher might choose to use android:roundIcon over
+   android:icon to display the adaptive app icon. Therefore, your themed
+   application iconwill not show if your monochrome attribute is not also
+   specified in android:roundIcon.
+
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\drawable\american.jpg: Warning: Found bitmap drawable res/drawable/american.jpg in densityless folder [IconLocation]
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\drawable\master.jpg: Warning: Found bitmap drawable res/drawable/master.jpg in densityless folder [IconLocation]
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\drawable\success.png: Warning: Found bitmap drawable res/drawable/success.png in densityless folder [IconLocation]
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\drawable\visa.png: Warning: Found bitmap drawable res/drawable/visa.png in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:25: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:39: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:53: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:113: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:123: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:137: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:150: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:162: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+
+   Explanation for issues of type "Autofill":
+   Specify an autofillHints attribute when targeting SDK version 26 or higher
+   or explicitly specify that the view is not important for autofill. Your app
+   can help an autofill service classify the data correctly by providing the
+   meaning of each view that could be autofillable, such as views representing
+   usernames, passwords, credit card fields, email addresses, etc.
+
+   The hints can have any value, but it is recommended to use predefined
+   values like 'username' for a username or 'creditCardNumber' for a credit
+   card number. For a list of all predefined autofill hint constants, see the
+   AUTOFILL_HINT_ constants in the View reference at
+   https://developer.android.com/reference/android/view/View.html.
+
+   You can mark a view unimportant for autofill by specifying an
+   importantForAutofill attribute on that view or a parent view. See
+   https://developer.android.com/reference/android/view/View.html#setImportant
+   ForAutofill(int).
+
+   https://developer.android.com/guide/topics/text/autofill.html
+
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:91: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:101: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:113: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main5.xml:26: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:18: Warning: Hardcoded string "Conformation Details", should use @string resource [HardcodedText]
+        android:text="Conformation Details"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:32: Warning: Hardcoded string "Card holder name", should use @string resource [HardcodedText]
+        android:hint="Card holder name"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:46: Warning: Hardcoded string "Address", should use @string resource [HardcodedText]
+        android:hint="Address"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:60: Warning: Hardcoded string "E-mail Address", should use @string resource [HardcodedText]
+        android:hint="E-mail Address"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:74: Warning: Hardcoded string "Edit", should use @string resource [HardcodedText]
+        android:text="Edit"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:86: Warning: Hardcoded string "Edit", should use @string resource [HardcodedText]
+        android:text="Edit"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:98: Warning: Hardcoded string "Edit", should use @string resource [HardcodedText]
+        android:text="Edit"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:109: Warning: Hardcoded string "DELETE", should use @string resource [HardcodedText]
+        android:text="DELETE"
+        ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:120: Warning: Hardcoded string "Contact Number", should use @string resource [HardcodedText]
+        android:hint="Contact Number"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:132: Warning: Hardcoded string "Edit", should use @string resource [HardcodedText]
+        android:text="Edit"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main2.xml:142: Warning: Hardcoded string "CONFIRM", should use @string resource [HardcodedText]
+        android:text="CONFIRM"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:16: Warning: Hardcoded string "Payment Details", should use @string resource [HardcodedText]
+        android:text="Payment Details"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:29: Warning: Hardcoded string "* Required filed", should use @string resource [HardcodedText]
+        android:text="* Required filed"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:41: Warning: Hardcoded string "Card Type *", should use @string resource [HardcodedText]
+        android:text="Card Type *"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:130: Warning: Hardcoded string "Card Number *", should use @string resource [HardcodedText]
+        android:hint="Card Number *"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:144: Warning: Hardcoded string "Expiration Month *", should use @string resource [HardcodedText]
+        android:hint="Expiration Month *"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:157: Warning: Hardcoded string "CVC *", should use @string resource [HardcodedText]
+        android:hint="CVC *"
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:170: Warning: Hardcoded string "Expiration Year *", should use @string resource [HardcodedText]
+        android:hint="Expiration Year *"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:183: Warning: Hardcoded string "Cancel", should use @string resource [HardcodedText]
+        android:text="Cancel"
+        ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main3.xml:193: Warning: Hardcoded string "Pay", should use @string resource [HardcodedText]
+        android:text="Pay"
+        ~~~~~~~~~~~~~~~~~~
+C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app\src\main\res\layout\activity_main5.xml:18: Warning: Hardcoded string "Payment Success", should use @string resource [HardcodedText]
+        android:text="Payment Success"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 45 warnings

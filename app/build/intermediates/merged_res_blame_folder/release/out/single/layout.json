@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.slcraft.app-mergeReleaseResources-32:/layout/activity_main3.xml",
+        "source": "com.example.slcraft.app-main-34:/layout/activity_main3.xml"
+    },
+    {
+        "merged": "com.example.slcraft.app-mergeReleaseResources-32:/layout/activity_main5.xml",
+        "source": "com.example.slcraft.app-main-34:/layout/activity_main5.xml"
+    },
+    {
+        "merged": "com.example.slcraft.app-mergeReleaseResources-32:/layout/activity_main4.xml",
+        "source": "com.example.slcraft.app-main-34:/layout/activity_main4.xml"
+    },
+    {
+        "merged": "com.example.slcraft.app-mergeReleaseResources-32:/layout/activity_main.xml",
+        "source": "com.example.slcraft.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.slcraft.app-mergeReleaseResources-32:/layout/activity_main2.xml",
+        "source": "com.example.slcraft.app-main-34:/layout/activity_main2.xml"
+    }
+]

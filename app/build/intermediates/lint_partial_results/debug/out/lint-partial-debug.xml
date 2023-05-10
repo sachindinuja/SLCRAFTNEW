@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.0.1" type="partial_results">
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="attr[colorPrimaryVariant(R)],color[purple_200(U),black(U),teal_200(U),white(U),teal_700(U),purple_700(U),purple_500(U)],dimen[Uinput4H(U),Uinput3H(U),Uinput2H(U),TxtH2(U),Texw1(U),Uinput4W(U),Uinput3W(U),Uinput2W(U),Txtw2(U),Uinput1W(U),UinputH1(U),Texh1(U)],drawable[american(U),wave_background(U),master(U),ic_launcher_foreground(U),ic_launcher_background(U),success(U),visa(U),ic_launcher_foreground_1(R)],id[Txt1p5(D),radioButton3(U),Uinput4p3(U),Txt2(U),Texp2(U),Uinput3p2(U),Uinput2p3(U),Uinput4p2(U),radioButton2(U),Uinput3p3(U),imageView(D),RBt1(U),Tex1p3(U),Bt6p2(U),Bt5p2(U),Bt4p2(U),Tex2p3(U),Bt3p2(U),Bt2p3(U),Bt2p2(U),New1(U),Bt1p3(U),Uinput2(U),Uinput1(U),Uinput3(U),textView3(U),imageView4(U),radio_groupPay(D),Tex1(U),imageView3(D),imageView2(U),Uinput1p2(U),Uinput2p2(U),Uinput1p3(U),UinpuT4(U),Bt1(U)],layout[activity_main(U),activity_main2(U),activity_main4(U),activity_main3(U),activity_main5(U)],mipmap[ic_launcher_round(D),ic_launcher(U)],string[address(U),required_filed(U),contact_number(U),app_name(U),full_name(U),e_mail_address(U),card_holder_details(U)],style[Theme_AppCompat_Light_NoActionBar(R),Theme_SLCRAFT(U)],xml[data_extraction_rules(U),backup_rules(U)];17^1b,40^15^13^c^4d^b^10^48^38^4b^12^11^1f^47^a^f^33^4c^9^e^32^49^8^d^34^3e,41^15^20^3b^3c^21^23,42^15,43^28^2c^35^3a^36^27^1a^1d^14^24^16^3d^22^1e^31,44^15^19,45^18^17,46^18^17,4f^4e^7^6^4^3^5^2^0^1;;;"/>
+        <location id="R.mipmap.ic_launcher_round"
+            file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher_round.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="272"/>
+    </map>
+
+</incidents>

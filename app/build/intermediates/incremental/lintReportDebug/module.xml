@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\Users\sachi\AndroidStudioProjects\SLCRAFT\app"
+    name=":app"
+    type="APP"
+    maven="SLCRAFT:app:"
+    agpVersion="8.0.1"
+    buildFolder="build"
+    bootClassPath="C:\Users\sachi\AppData\Local\Android\Sdk\platforms\android-UpsideDownCake\android.jar;C:\Users\sachi\AppData\Local\Android\Sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-UpsideDownCake"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

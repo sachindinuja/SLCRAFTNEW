@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.0.1" type="incidents">
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/wave_background.xml"
+            line="2"
+            column="20"
+            startOffset="87"
+            endLine="2"
+            endColumn="26"
+            endOffset="93"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Conformation Details&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="18"
+            column="9"
+            startOffset="712"
+            endLine="18"
+            endColumn="44"
+            endOffset="747"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="25"
+            column="6"
+            startOffset="979"
+            endLine="25"
+            endColumn="14"
+            endOffset="987"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Card holder name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="32"
+            column="9"
+            startOffset="1213"
+            endLine="32"
+            endColumn="40"
+            endOffset="1244"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="39"
+            column="6"
+            startOffset="1484"
+            endLine="39"
+            endColumn="14"
+            endOffset="1492"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Address&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="46"
+            column="9"
+            startOffset="1718"
+            endLine="46"
+            endColumn="31"
+            endOffset="1740"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="53"
+            column="6"
+            startOffset="1987"
+            endLine="53"
+            endColumn="14"
+            endOffset="1995"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;E-mail Address&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="60"
+            column="9"
+            startOffset="2221"
+            endLine="60"
+            endColumn="38"
+            endOffset="2250"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Edit&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="74"
+            column="9"
+            startOffset="2754"
+            endLine="74"
+            endColumn="28"
+            endOffset="2773"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Edit&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="86"
+            column="9"
+            startOffset="3208"
+            endLine="86"
+            endColumn="28"
+            endOffset="3227"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Edit&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="98"
+            column="9"
+            startOffset="3666"
+            endLine="98"
+            endColumn="28"
+            endOffset="3685"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;DELETE&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="109"
+            column="9"
+            startOffset="4084"
+            endLine="109"
+            endColumn="30"
+            endOffset="4105"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="113"
+            column="6"
+            startOffset="4230"
+            endLine="113"
+            endColumn="14"
+            endOffset="4238"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Contact Number&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="120"
+            column="9"
+            startOffset="4464"
+            endLine="120"
+            endColumn="38"
+            endOffset="4493"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Edit&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="132"
+            column="9"
+            startOffset="4908"
+            endLine="132"
+            endColumn="28"
+            endOffset="4927"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;CONFIRM&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="142"
+            column="9"
+            startOffset="5274"
+            endLine="142"
+            endColumn="31"
+            endOffset="5296"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Payment Details&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="16"
+            column="9"
+            startOffset="640"
+            endLine="16"
+            endColumn="39"
+            endOffset="670"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;* Required filed&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="29"
+            column="9"
+            startOffset="1121"
+            endLine="29"
+            endColumn="40"
+            endOffset="1152"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Card Type *&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="41"
+            column="9"
+            startOffset="1547"
+            endLine="41"
+            endColumn="35"
+            endOffset="1573"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="91"
+            column="6"
+            startOffset="3318"
+            endLine="91"
+            endColumn="15"
+            endOffset="3327"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="101"
+            column="6"
+            startOffset="3683"
+            endLine="101"
+            endColumn="15"
+            endOffset="3692"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="113"
+            column="6"
+            startOffset="4150"
+            endLine="113"
+            endColumn="15"
+            endOffset="4159"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="123"
+            column="6"
+            startOffset="4525"
+            endLine="123"
+            endColumn="14"
+            endOffset="4533"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Card Number *&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="130"
+            column="9"
+            startOffset="4759"
+            endLine="130"
+            endColumn="37"
+            endOffset="4787"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="137"
+            column="6"
+            startOffset="5016"
+            endLine="137"
+            endColumn="14"
+            endOffset="5024"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Expiration Month *&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="144"
+            column="9"
+            startOffset="5250"
+            endLine="144"
+            endColumn="42"
+            endOffset="5283"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="150"
+            column="6"
+            startOffset="5481"
+            endLine="150"
+            endColumn="14"
+            endOffset="5489"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;CVC *&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="157"
+            column="9"
+            startOffset="5715"
+            endLine="157"
+            endColumn="29"
+            endOffset="5735"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="162"
+            column="6"
+            startOffset="5893"
+            endLine="162"
+            endColumn="14"
+            endOffset="5901"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Expiration Year *&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="170"
+            column="9"
+            startOffset="6167"
+            endLine="170"
+            endColumn="41"
+            endOffset="6199"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Cancel&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="183"
+            column="9"
+            startOffset="6671"
+            endLine="183"
+            endColumn="30"
+            endOffset="6692"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Pay&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main3.xml"
+            line="193"
+            column="9"
+            startOffset="7036"
+            endLine="193"
+            endColumn="27"
+            endOffset="7054"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Payment Success&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main5.xml"
+            line="18"
+            column="9"
+            startOffset="729"
+            endLine="18"
+            endColumn="39"
+            endOffset="759"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main5.xml"
+            line="26"
+            column="6"
+            startOffset="1031"
+            endLine="26"
+            endColumn="15"
+            endOffset="1040"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive icon is missing a monochrome tag">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="272"/>
+    </incident>
+
+    <incident
+        id="GradleDynamicVersion"
+        severity="warning"
+        message="Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (androidx.core:core-ktx:+)">
+        <fix-data coordinate="androidx.core:core-ktx:+"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="56"
+            column="20"
+            startOffset="1552"
+            endLine="56"
+            endColumn="46"
+            endOffset="1578"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.5.0 is available: 1.9.0">
+        <fix-replace
+            description="Change to 1.9.0"
+            family="Update versions"
+            oldString="1.5.0"
+            replacement="1.9.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="49"
+            column="20"
+            startOffset="1093"
+            endLine="49"
+            endColumn="64"
+            endOffset="1137"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-auth than 21.1.0 is available: 22.0.0">
+        <fix-replace
+            description="Change to 22.0.0"
+            family="Update versions"
+            oldString="21.1.0"
+            replacement="22.0.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="55"
+            column="20"
+            startOffset="1490"
+            endLine="55"
+            endColumn="62"
+            endOffset="1532"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-database-ktx than 20.1.0 is available: 20.2.1">
+        <fix-replace
+            description="Change to 20.2.1"
+            family="Update versions"
+            oldString="20.1.0"
+            replacement="20.2.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="57"
+            column="20"
+            startOffset="1598"
+            endLine="57"
+            endColumn="70"
+            endOffset="1648"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-auth-ktx than 21.1.0 is available: 22.0.0">
+        <fix-replace
+            description="Change to 22.0.0"
+            family="Update versions"
+            oldString="21.1.0"
+            replacement="22.0.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="58"
+            column="20"
+            startOffset="1668"
+            endLine="58"
+            endColumn="66"
+            endOffset="1714"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/american.jpg` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/american.jpg"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/master.jpg` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/master.jpg"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/success.png` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/success.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/visa.png` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/visa.png"/>
+    </incident>
+
+</incidents>
